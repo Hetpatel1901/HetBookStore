@@ -65,3 +65,22 @@ Program date: 2022/11/30
 1131: changing the namespace in errorviewmodels.cs file
 1133: Build run successfully.
 1135: Start working on Startup.cs file.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Part 2:
+0943: Rebuild the project and it work correctly without eroors.
+0944: modify the database name in appsettings.json file
+0945: added the migration in .dataaccess through the //add-migration AddDefaultIdentityMigration
+0947: migration added successfully.
+0948: added category.cs file in models project.
+0952: added migation to category file.
+1030: catch the errors while adding DB to dataaccess.
+1040: migration run successful witghout error.
+1041: start the 2.2 for creating repository. 
+1100: creating repository folder in dataaccess project
+1105: created Irepository.cs inside Irepository folder.
+1106: modify the content in Irepository folder
+1107: created repository.cs file
+1108: adding content in repository.cs file
+
