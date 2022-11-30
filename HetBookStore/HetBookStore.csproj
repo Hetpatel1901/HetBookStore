@@ -20,10 +20,4 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\HetBook.DataAccess\HetBook.DataAccess.csproj" />
-    <ProjectReference Include="..\HetBook.Models\HetBook.Models.csproj" />
-    <ProjectReference Include="..\HetBook.Utility\HetBook.Utility.csproj" />
-  </ItemGroup>
-
 </Project>
