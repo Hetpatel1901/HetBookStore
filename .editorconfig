@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Metadata file 'C:\Users\Het\source\repos\Hetpatel1901\HetBookStore\HetBook.Models\bin\Debug\netcoreapp3.1\HetBook.Models.dll' could not be found
+dotnet_diagnostic.CS0006.severity = error
