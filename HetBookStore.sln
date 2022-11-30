@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HetBookStore", "HetBookStore\HetBookStore.csproj", "{64C1D428-A3F3-403B-BAF3-6199E8585A83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetBook.DataAccess", "HetBook.DataAccess\HetBook.DataAccess.csproj", "{B47CE626-56C9-4E23-A624-1C89D189DC52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HetBook.DataAccess", "HetBook.DataAccess\HetBook.DataAccess.csproj", "{B47CE626-56C9-4E23-A624-1C89D189DC52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetBook.Models", "HetBook.Models\HetBook.Models.csproj", "{F9B19BE8-BAA3-459B-838D-E613DBB3E231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HetBook.Models", "HetBook.Models\HetBook.Models.csproj", "{F9B19BE8-BAA3-459B-838D-E613DBB3E231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetBook.Utility", "HetBook.Utility\HetBook.Utility.csproj", "{1EBFBCD9-08B6-4DB8-B01C-08DB9828D801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HetBook.Utility", "HetBook.Utility\HetBook.Utility.csproj", "{1EBFBCD9-08B6-4DB8-B01C-08DB9828D801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
