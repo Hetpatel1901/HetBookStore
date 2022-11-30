@@ -62,7 +62,7 @@ namespace HetBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{area=Customer}/{controller=Home}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

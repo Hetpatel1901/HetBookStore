@@ -23,6 +23,11 @@
   <ItemGroup>
     <ProjectReference Include="..\HetBook.DataAccess\HetBook.DataAccess.csproj" />
     <ProjectReference Include="..\HetBook.Models\HetBook.Models.csproj" />
+    <ProjectReference Include="..\HetBook.Utility\HetBook.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
