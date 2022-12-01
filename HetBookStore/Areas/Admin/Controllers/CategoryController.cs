@@ -1,32 +1,27 @@
-﻿using HetBook.DataAccess.Repository.IRepository;
-using HetBookStore.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HetBook.DataAccess.Repository.IRepository;
+using HetBookStore.Models;
+using Microsoft.Extensions.Logging;
 using HetBook.Models;
-
 
 namespace HetBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
-
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-
         public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
-
         public IActionResult Index()
         {
             return View();
         }
-
         public IActionResult Upsert(int? id)
         {
             Category category = new Category();
@@ -47,13 +42,12 @@ namespace HetBookStore.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Category category)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid)                     //Checks all validation in the model
             {
                 if (category.Id == 0)
 
                 {
                     _unitOfWork.Category.Add(category);
-
 
                 }
                 else
@@ -61,23 +55,23 @@ namespace HetBookStore.Areas.Admin.Controllers
                     _unitOfWork.Category.Update(category);
                 }
                 _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index));         //To see all the categories
             }
             return View(category);
         }
 
 
-
-
-
+        //API calls here
         #region API CALLS
         [HttpGet]
 
         public IActionResult GetAll()
         {
+            //return NotFound();
             var allobj = _unitOfWork.Category.GetAll();
             return Json(new { data = allobj });
         }
+
         [HttpDelete]
         public IActionResult Delete(int id)
         {
@@ -93,6 +87,4 @@ namespace HetBookStore.Areas.Admin.Controllers
         }
         #endregion
     }
-
-
 }
