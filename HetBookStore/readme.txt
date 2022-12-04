@@ -84,7 +84,7 @@ Part 2:
 1107: created repository.cs file
 1108: adding content in repository.cs file
 
-03/12/2022
+2022/03/12
 0655: Added an 'IRepository' folder inside it.
 0657: Added new item of type interface to the folder named 'IRepository'
 0659: Modified it, so that it can be used on category class.
@@ -140,4 +140,41 @@ Part 2:
 1131: And it was running successfully
 1135: PUSH CODES TO GITHUB........
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Part 3:
+2022/03/12
+
+1140: Now started working on prt 3
+1142: first i created new class file CoverType.cs in models folder
+1145: then i added a migration file  - 20221122200305_AddCoverTypeToDb.cs
+1149: update Dbcontext file as new migration was added
+1150: created CoverTypeRepository class
+1157: added interface ICoverTypeRepository
+1200: create CoverType to unitofwork
+1203: then creating CoverType to IUnitofwork
+1205: pushed it to database
+1209: Added Cover Type to navbar
+1210: Added Covertype controller 
+1212: Added Cover type index view to use data tables
+1214: Added cover type upsert view of creating and updating
+1220: Created covertype.js
+1223: Now started adding Product
+1225: first added new class file product.cs in models
+1229: then added a migration file - 20221122230958_AddProductToDb.cs
+1230: update Dbcontext file as new migration was added
+1235: cerated ProductRepository class
+1236: added interface IProductRepository
+1240: Then added Product to unitofwork
+1242: created Product to IUnitofwork
+1245: pushed it to database
+1253: Added product to navbar
+1255: Added product controller 
+1259: Added product index view to use data tables
+0100: Added product upsert view of creating and updating
+0103: created product.js
+0107: created product and images folder
+0110: Tiny Cloud link added
+0115: Build the project and there were no eroors
+0118: Run the project and it run sucessfully
+0120: Part 3 complete successfull..........
