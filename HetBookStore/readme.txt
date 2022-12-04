@@ -178,3 +178,11 @@ Part 3:
 0115: Build the project and there were no eroors
 0118: Run the project and it run sucessfully
 0120: Part 3 complete successfull..........
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Part 4:
+2022/03/12
+0200: Build my project and check the errors
+0201: No errors were founded in project ready to work on part 4 of project
+0208: checking the github repo which you provided
