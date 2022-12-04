@@ -84,3 +84,60 @@ Part 2:
 1107: created repository.cs file
 1108: adding content in repository.cs file
 
+03/12/2022
+0655: Added an 'IRepository' folder inside it.
+0657: Added new item of type interface to the folder named 'IRepository'
+0659: Modified it, so that it can be used on category class.
+0700: Then I fiexed all bugs
+0705: Modified the code for constuctors and dependency(DI)
+0710 Created two Rpository-
+        - CategoryRepository.cs
+        - ICategoryRepository.cs
+0715: Modified CategoryRepository.cs
+0735: Modified ICategoryRepository.cs
+0800: Then again fixed some errors
+0815: Added new interface int the IRepository folder ISP_Calls.cs
+0820: Installed Nuget package for Dapper
+0830: Added a new class SP_Call.cs in the Repository
+0835: added a connection to the database and added additional using statements
+0847: updated implementation of ISP_Call interface.
+0855: Added wrapper for Unit of Work
+0900: Added new interface IUnitOfWork to the Irepository folder
+0904: Modified UnitOfWork.cs
+0910: To make it accessible, registered it on Startup.cs
+0915: Corrected errors and build it
+0917: Some error poped up, but then fixed it while building
+0923: Successfully application was builded
+0928: Added new MVC Controller - empty inside Areas/Admin
+0930: modified it to use the IUnitOfWork from .DataAccess
+0935: Added new folder in Areas/View as Controller
+0940: added new index view to the folder
+0953: Saved and runned it
+0954: Successfully runned
+1000: In _Layout.cshtml moved 'Category' link to the Content Management dropdown
+1002: Reviewed the changes to the navigation
+1015: Modified Index.cshtml to add icons in the category section
+1017: Deleted it after testing
+1020: Added category.js in wwwroot/js folder
+1034: In Index.cshtml added @section call to category.js sript and run the project
+1040: Then checked it by running
+1042: And it was running perfectly fine.
+1045: Added IAction result to the controller
+1050: Modified upsert view
+1052: created partial view for Edit | Back
+1055: Added partial named:-
+       - _CreateAndBackToListButton
+       - _EditAndBackToListButton
+1100: Added razor code
+1106: Modified upsert.cshtml
+1108: There were some errors but I fixed
+1115: updated upsert.cshtml
+1124: Then I try to solve my error and my error was solved finally..
+      I was having problem with my ICategoryRepository.cs
+      I have forget to add extension for IRepository<category>
+      And I solved it
+1130: Finally checked my project.
+1131: And it was running successfully
+1135: PUSH CODES TO GITHUB........
+
+
