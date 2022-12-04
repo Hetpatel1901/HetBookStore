@@ -186,3 +186,8 @@ Part 4:
 0200: Build my project and check the errors
 0201: No errors were founded in project ready to work on part 4 of project
 0208: checking the github repo which you provided
+
+1945: Clone the repo and run the application no error founded
+1948: change the code in index.cshtml in customer>view
+1949: code not workin showing error
+1950: comment down the codes.
