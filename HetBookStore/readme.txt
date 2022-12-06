@@ -191,3 +191,11 @@ Part 4:
 1948: change the code in index.cshtml in customer>view
 1949: code not workin showing error
 1950: comment down the codes.
+
+2022/06/12
+1015: Clone the repo
+1017: Build and run the project
+1018: Added the category and covertype on application
+1020: Product listed and show in product list but not showing on home page
+1021: Added codees in index.cshtml in area>customer>view>home
+1022: Shows and Model error.
