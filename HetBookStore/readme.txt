@@ -199,3 +199,7 @@ Part 4:
 1020: Product listed and show in product list but not showing on home page
 1021: Added codees in index.cshtml in area>customer>view>home
 1022: Shows and Model error.
+1035: Edit the codes in Homecontroller.cs in Areas>Customer>Controller
+1036: run the update-database in Pm console
+1037: Run the project and it run successfull
+1038: Now i add new product list on web application
