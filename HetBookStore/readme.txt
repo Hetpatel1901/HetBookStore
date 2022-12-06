@@ -203,3 +203,4 @@ Part 4:
 1036: run the update-database in Pm console
 1037: Run the project and it run successfull
 1038: Now i add new product list on web application
+1045: New product were added and show on Home page too.
